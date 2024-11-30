@@ -1,0 +1,124 @@
+.bg-azul{
+    background-color: #2b3c98;
+}
+
+.bg-azul2{
+    background-color: #4b8cd7;
+}
+
+.bg-amarillo{
+    background-color: #FFC107;
+}
+
+.c-amarillo{
+    background-color: #dcd40c
+}
+
+.texto-header{
+    color: black;            /* Color del texto */
+    font-weight: bold;       /* Poner el texto en negrita */
+}
+
+.foto {
+    width: 100%;          /* Ancho al 100% */
+    height: 400px;        /* Altura fija */
+    object-fit: cover;  /* Ajusta la imagen sin recortarla */
+  }
+  .foto-card{
+    width: 100%;          /* Ancho al 100% */
+    height: 400px;        /* Altura fija */
+    object-fit: cover;  /* Ajusta la imagen sin recortarla */
+  }
+
+  #horarios .section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ffcc00; /* amarillo */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.card {
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    text-align: left;
+}
+
+.card .card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #003366; /* Azul oscuro */
+}
+
+.card .card-text {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.card .card-body p {
+    margin: 10px 0;
+}
+
+.card .card-body p strong {
+    color: #ffcc00; /* Amarillo para los detalles importantes */
+}
+
+.card .card-body p:last-child {
+    margin-bottom: 0;
+}
+
+/* Contenedor del formulario o contenido */
+.main-container {
+    max-width: 900px;  /* Tamaño máximo del contenedor */
+    margin: 0 auto;    /* Centrado del contenedor */
+    background-color: #fff;  /* Fondo blanco */
+    padding: 30px;
+    border-radius: 8px;  /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);  /* Sombra ligera */
+}
+
+/* Título de la sección */
+.section-title {
+    font-size: 2rem;
+    color: #0056b3;  /* Color del texto */
+    font-weight: bold;
+    margin-bottom: 20px;  /* Espacio debajo del título */
+    text-align: center;
+}
+
+/* Estilo para las etiquetas de los formularios */
+.form-label {
+    font-weight: bold;  /* Negrita */
+    color: #333;  /* Color de texto */
+}
+
+/* Espaciado entre los campos del formulario */
+.mb-3 {
+    margin-bottom: 1.5rem;  /* Espacio entre los campos */
+}
+
+/* Estilo para el botón de envío */
+.btn-submit {
+    background-color: #ffc107;  /* Color amarillo */
+    color: #000;  /* Texto negro */
+    font-weight: bold;  /* Negrita */
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    width: 100%;  /* Botón de ancho completo */
+}
+
+.btn-submit:hover {
+    background-color: #e0a800;  /* Color más oscuro al pasar el mouse */
+    cursor: pointer;
+}
