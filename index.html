@@ -1,12 +1,177 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="es">
+
 <head>
-<meta charset="UTF-8">
-<title>CDB Yuncos</title>
+    <title>C.D.B.Yuncos</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 </head>
+
 <body>
-<script type="text/javascript">
-	window.location = "Controller?op=inicio"
-</script>
+    <header>
+        <nav class="navbar navbar-expand-sm bg-amarillo">
+            <div class="container">
+                <a class="navbar-brand" href="home.html"><img src="img/logo.png" alt="" width="40"></a>
+                <h3 class="texto-header">C.D.B.Yuncos</h3>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav mx-auto mt-2 mt-lg-0 texto-header ">
+                        <li class="nav-item p-3">
+                            <a class="nav-link" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item p-3">
+                            <a class="nav-link" href="horario.html">Horarios</a>
+                        </li>
+                        <li class="nav-item p-3">
+                            <a class="nav-link" href="partidos.html">Partidos</a>
+                        </li>
+                        <li class="nav-item p-3">
+                            <a class="nav-link" href="plantilla.html">Plantilla</a>
+                        </li>
+                        <li class="nav-item p-3">
+                            <a class="nav-link" href="inscripcion.html">Inscripciones</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div>
+            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators list-unstyled">
+                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
+                        aria-label="First slide"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="img/foto1.JPG" class="w-100 d-block foto" alt="First slide" />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/foto2.JPG" class="w-100 d-block foto" alt="Second slide" />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/foto1.JPG" class="w-100 d-block foto" alt="Third slide" />
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main class="bg-azul">
+        <div class="container">
+            <section id="bienvenida" class="pt-4 text-center text-white ">
+                <h2>Bienvenidos al Club Deportivo Baloncesto Yuncos</h2>
+                <p>En el C.D.B. Yuncos promovemos el deporte, la formación integral de nuestros jugadores y el trabajo en equipo. Únete a nosotros y forma parte de nuestra familia deportiva.</p>
+                <a href="inscripcion.html" class="btn btn-primary">¡Únete al club!</a>
+             </section>
+               <!-- Sección de Noticias y Eventos -->
+        <section id="noticias" class="mb-5 pt-3">
+            <h2 class="text-center mb-4 text-white">Cosas de Interés</h2>
+            <div class="row">
+                <!-- Noticia 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/noticia1.jpg" class="card-img-top img-fluid foto-card" alt="Noticia 1" />
+                        <div class="card-body">
+                            <h5 class="card-title">Próximos Partidos</h5>
+                            <p class="card-text">No te pierdas nuestros partidos y ven a apoyarnos. ¡Vamos Yuncos!</p>
+                            <a href="partidos.html" class="btn btn-primary">Saber más</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Noticia 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/noticia2.jpg" class="card-img-top img-fluid w-80 foto-card" alt="Noticia 2" />
+                        <div class="card-body">
+                            <h5 class="card-title">Nuevos Jugadores</h5>
+                            <p class="card-text">Estamos buscando nuevos jugadores para nuestro equipo. ¡Inscríbete ahora!</p>
+                            <a href="inscripciones.html" class="btn btn-primary">Inscribirse</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Noticia 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/noticia3.jpg" class="card-img-top img-fluid w-80 foto-card" alt="Noticia 3" />
+                        <div class="card-body">
+                            <h5 class="card-title">Conociendo a Yuncos</h5>
+                            <p class="card-text">Conoce a nuestros jugadores y cómo estamos creciendo como club.</p>
+                            <a href="plantilla.html" class="btn btn-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Calendario de Partidos -->
+        <section id="calendario" class="bg-azul py-5">
+            <div class="container">
+                <h2 class="text-center mb-4"></h2>
+                <div class="table-responsive">
+                </div>
+            </div>
+        </section>
+
+            <section>
+            <div class="row justify-content-center">
+                <div class="col-xl-6 my-3 d-flex">
+
+                </div>
+            </div>
+        </div>
+        </section>
+
+    </main>
+    <footer class="bg-amarillo text-center text-black py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p>&copy; 2024 Club Baloncesto Yuncos. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-12 mb-3">
+                    <ul class="list-unstyled d-flex justify-content-center">
+                        <li class="mx-3">
+                            <a href="#" class="text-black"><i class="bi bi-facebook"></i> </a>
+                        </li>
+                        <li class="mx-3">
+                            <a href="#" class="text-black"><i class="bi bi-twitter"></i></a>
+                        </li>
+                        <li class="mx-3">
+                            <a href="#" class="text-black"><i class="bi bi-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
